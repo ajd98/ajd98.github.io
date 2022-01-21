@@ -3,21 +3,17 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 #page-container {
   position: relative;
   min-height: 100vh;
 }
-
 #content-wrap {
   padding-bottom: 50px;
 }
-
 #intro-header {
   font-weight: bold;
   text-decoration: underline;
 }
-
 #intro {
   display: inline-block;
   vertical-align: top;
@@ -31,12 +27,10 @@ body {
   border-radius: 5px;
   font-size: 20px;
 }
-
 #image-of-alex {
   width: 20vw;
   height: auto;
 }
-
 .image-holder {
   margin-left: 15vw;
   margin-top: 10vh;
@@ -47,14 +41,12 @@ body {
   border-radius: 5px;
   border: 5px solid black;
 }
-
 #pubs-header {
   margin-top: 10vh;
   margin-left: 20vw;
   font-size: 30px;
   text-decoration: underline;
 }
-
 #pubs {
   margin-left: 20vw;
   margin-right: 5vw;
@@ -75,7 +67,7 @@ body {
   margin: 0 auto;
   font-size: 30px;
   margin-top: 30vh;
-  width: 20vw;
+  width: 30vw;
 }
 #mountain-background {
   position: fixed;
@@ -83,6 +75,34 @@ body {
   left: 0;
   width: 100vw;
   z-index: -1;
+}
+
+@media only screen and (max-width: 812px) {
+  #intro {
+    display: block;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  #image-of-alex {
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+  }
+  .image-holder {
+    display: block;
+    width: 60vw;
+    margin: 10vw auto;
+  }
+  #pubs-header {
+    margin-left: 5vw;
+  }
+  #pubs {
+    margin-left: 5vw;
+  }
+  #contact-me {
+    margin-left: 5vw;
+    width: 60vw;
+  }
 }
 
 /* Top navigation bar */
