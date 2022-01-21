@@ -1,0 +1,173 @@
+/* Basic body styles */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 50px;
+}
+
+#intro-header {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#intro {
+  display: inline-block;
+  vertical-align: top;
+  width: 50vw;
+  position: relative;
+  padding: 20px 20px;
+  margin-top: 10vh;;
+  margin-left: 50px;
+  background-color: #fff0;
+  border: 2px solid #cccd;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#image-of-alex {
+  width: 20vw;
+  height: auto;
+}
+
+.image-holder {
+  margin-left: 15vw;
+  margin-top: 10vh;
+  width: auto;
+  display: inline-block;
+  background-color: #fffd;
+  padding: 20px 20px;
+  border-radius: 5px;
+  border: 5px solid black;
+}
+
+#pubs-header {
+  margin-top: 10vh;
+  margin-left: 20vw;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#pubs {
+  margin-left: 20vw;
+  margin-right: 5vw;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  background-color: #ffffffd6;
+}
+#pubs a {
+  color: #444;
+  text-decoration: none;
+  cursor: pointer; 
+}
+#pubs a:hover {
+  color: black;
+}
+#contact-me {
+  margin: 0 auto;
+  font-size: 30px;
+  margin-top: 30vh;
+  width: 20vw;
+}
+#mountain-background {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* Top navigation bar */
+
+.topnav {
+  overflow: hidden;
+  background-color: #ddd8;
+  display: block;
+}
+
+.topnav img {
+  height: 46px;
+  float: left;
+  padding: 6px 16px 0px 16px;
+}
+
+.topnav a {
+  float: left;
+  color: #222;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.topnav .navButton:hover {
+  background-color: #ccca;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  margin: 0;
+  cursor: default;
+}
+
+.footer img:hover {
+  cursor: pointer;
+}
+
+.footer-center {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.logoContainer {
+  width: 100px;
+  float: left;
+}
+
+.logoContainer img {
+  display: block;
+}
+
+#emailLogo {
+  height: 30px;
+  margin: 10px auto;
+}
+
+#emailLogo:hover {
+  height: 36px;
+  margin: 7px auto;
+}
+
+#scholarLogo {
+  height: 40px;
+  margin: 5px auto;
+}
+
+#scholarLogo:hover {
+  height: 46px;
+  margin: 2px auto;
+}
+
+#githubLogo {
+  height: 36px;
+  margin: 7px auto;
+}
+
+#githubLogo:hover {
+  height: 42px;
+  margin: 4px auto;
+}
