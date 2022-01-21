@@ -116,7 +116,7 @@ body {
 .topnav img {
   height: 46px;
   float: left;
-  padding: 6px 16px 0px 16px;
+  padding: 6px 16px 4px 16px;
 }
 
 .topnav a {
@@ -127,15 +127,15 @@ body {
   text-decoration: none;
   font-size: 24px;
 }
-
+.nav-buttons {
+  display: inline-block;
+  vertical-align: top;
+}
 .topnav .nav-button:hover {
   background-color: #ccca;
 }
 
 @media only screen and (max-width: 812px) {
-  .nav-buttons { 
-    display: inline-block;
-  }
   .topnav a {
     padding: 14px 8px;
   }
