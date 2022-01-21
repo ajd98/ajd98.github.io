@@ -136,6 +136,9 @@ body {
   .nav-buttons { 
     display: inline-block;
   }
+  .topnav a {
+    padding: 14px 8px;
+  }
 }
 
 /* Footer */
