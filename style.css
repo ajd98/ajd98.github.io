@@ -66,6 +66,10 @@ body {
 #pubs p {
   color: #444;
 }
+#pubs img {
+  width: 0.7em;
+  vertical-align: top;
+}
 #contact-me {
   margin: 0 auto;
   font-size: 30px;
