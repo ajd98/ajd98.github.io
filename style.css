@@ -63,11 +63,14 @@ body {
 #pubs a:hover {
   color: black;
 }
+#pubs p {
+  color: #444;
+}
 #contact-me {
   margin: 0 auto;
   font-size: 30px;
   margin-top: 30vh;
-  width: 30vw;
+  width: 50vw;
 }
 #mountain-background {
   position: fixed;
@@ -101,7 +104,7 @@ body {
   }
   #contact-me {
     margin-left: 5vw;
-    width: 60vw;
+    width: 80vw;
   }
 }
 
@@ -118,8 +121,7 @@ body {
   float: left;
   padding: 6px 16px 4px 16px;
 }
-
-.topnav a {
+.nav-button {
   float: left;
   color: #222;
   text-align: center;
