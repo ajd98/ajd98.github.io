@@ -16,7 +16,7 @@ body {
 }
 #page-container {
   position: relative;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 #content-wrap {
   padding-bottom: 50px;
