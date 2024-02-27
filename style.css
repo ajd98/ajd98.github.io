@@ -212,7 +212,7 @@ body {
   display: block;
 }
 
-.topnav img {
+#logo {
   height: 36px;
   float: left;
   padding: 6px 16px 4px 16px;
@@ -232,9 +232,20 @@ body {
   vertical-align: top;
 }
 
+.nav-icon {
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
+.nav-button-white .nav-icon {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
 /* photography page-specific styling*/
 .topnav .nav-button:hover {
-  background-color: #ccca;
+  background-color: #999a;
 }
 
 .nav-button-white {
