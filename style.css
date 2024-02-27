@@ -1,7 +1,18 @@
 /* Basic body styles */
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: Garamond, serif;
+
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
+.hidden {
+  opacity: 0;
 }
 #page-container {
   position: relative;
@@ -15,15 +26,17 @@ body {
   text-decoration: underline;
 }
 #intro {
-  display: inline-block;
+  display: block;
   vertical-align: top;
   width: 50vw;
   position: relative;
   padding: 20px 20px;
-  margin-top: 10vh;;
-  margin-left: 50px;
-  background-color: #fff0;
-  border: 2px solid #cccd;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+  background-color: #fffa;
+  border: 2px solid #cccd; 
   border-radius: 5px;
   font-size: 20px;
   -webkit-animation: fadein 1s;
@@ -32,14 +45,36 @@ body {
        -o-animation: fadein 1s;
           animation: fadein 1s;
 }
+#intro p {
+  margin-top: 0px;
+  margin-bottom: 1em;
+}
+.no-space-before-or-after {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+#intro p.no-space-after {
+  margin-bottom: 0em;
+}
 #image-of-alex {
-  width: 20vw;
-  height: auto;
+  height: 30vh;
+  margin: 0 auto;
+  width: 40vh;
   -webkit-animation: fadein 1s;
      -moz-animation: fadein 1s;
       -ms-animation: fadein 1s;
        -o-animation: fadein 1s;
           animation: fadein 1s;
+}
+.image-holder {
+  margin-top: 5vh;
+  margin-left: auto; 
+  margin-right: auto; 
+  height: 30vh;
+  width: 40vh;
+  display: block;
+  background-color: #fffd;
+  padding: 10px 10px 10px 10px;
 }
 @keyframes fadein {
   from { opacity: 0;}
@@ -61,14 +96,7 @@ body {
   from { opacity: 0;}
   to   { opacity: 1;}
 }
-.image-holder {
-  margin-left: 15vw;
-  margin-top: 10vh;
-  width: auto;
-  display: inline-block;
-  background-color: #fffd;
-  padding: 20px 20px;
-}
+
 #pubs-header {
   margin-top: 10vh;
   margin-left: 20vw;
@@ -108,11 +136,28 @@ body {
   width: 0.7em;
   vertical-align: top;
 }
+#contact-me-wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 56px);
+  left: 0;
+  right: 0;
+  bottom: auto;
+  width: 60vw;
+  margin: 0 auto;
+  background-color: #fffa;
+}
 #contact-me {
   margin: 0 auto;
   font-size: 30px;
   margin-top: 30vh;
   width: 50vw;
+  -webkit-animation: fadein 1s;
+     -moz-animation: fadein 1s;
+      -ms-animation: fadein 1s;
+       -o-animation: fadein 1s;
+          animation: fadein 1s;
 }
 #mountain-background {
   position: fixed;
@@ -122,21 +167,30 @@ body {
   z-index: -1;
 }
 
+#background {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
 @media only screen and (max-width: 812px) {
   #intro {
     display: block;
     width: 80vw;
-    margin: 0 auto;
+    margin: 1vh auto;
   }
   #image-of-alex {
-    width: 60vw;
-    height: auto;
+    width: 40vh;
+    height: 30vh;
     margin: 0 auto;
   }
   .image-holder {
     display: block;
-    width: 60vw;
-    margin: 10vw auto;
+    width: 40vh;
+    height: 30vh;
   }
   #pubs-header {
     margin-left: 5vw;
@@ -171,12 +225,127 @@ body {
   text-decoration: none;
   font-size: 24px;
 }
+
 .nav-buttons {
   display: inline-block;
   vertical-align: top;
 }
+
+/* photography page-specific styling*/
 .topnav .nav-button:hover {
   background-color: #ccca;
+}
+
+.nav-button-white {
+  color: #fff;
+}
+
+.dark-theme {
+  background-color: #111;
+}
+
+.topnav-dark-theme {
+  background-color: #555;
+  /*position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  */
+  z-index: 10;
+}
+
+.photo {
+  display: block;
+  max-width: 80%;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1vw solid white;
+}
+
+.inner-photo-container { 
+  margin-left: 5vw;
+}
+
+.photo-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 200px);
+}
+
+.photo-nav-button {
+  display: inline-block;
+  width: 20vw;
+  background: #555;
+  text-align: center;
+  border-right: 1vw solid #555;
+  border-left: 1vw solid #555;
+  border-top: 1vw solid #555;
+  border-bottom: 0.3vw solid #555;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.photo-nav-button:hover {
+  background: #888;
+  border-right: 1vw solid #888;
+  border-left: 1vw solid #888;
+  border-top: 1vw solid #888;
+  border-bottom: 0.3vw solid #888;
+}
+
+.nav-photo {
+  max-width: 20vw;
+  width: 20vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-photo-label {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+}
+
+.back-arrow {
+  position: fixed;
+  top: 50%;
+  left: 1%;
+  width: 6vh;
+  height: 6vh;
+  cursor: pointer;
+}
+#down-arrow {
+  position: fixed;
+  bottom: 2%;
+  left: 2%;
+  width: 5vw;
+}
+.down-arrow-hidden {
+  opacity: 0;
+  transition: opacity 0.7s ease-in;
+}
+.fade {
+  transition: opacity 0.7s ease-in;
+}
+
+.fadeOut {opacity: 0.1;}
+.fadeIn {opacity: 1;}
+
+.copyright {
+  position: fixed;
+  right: 1%;
+  bottom: 0% ;
+  color: #fff;
+  margin-bottom: 1px;
 }
 
 @media only screen and (max-width: 812px) {

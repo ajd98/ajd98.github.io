@@ -7,7 +7,7 @@ document.getElementById("emailLogo").onclick = function () {
   window.location = "mailto:"+p1+p2+p3+p4+p5;
 }
 
-mail = document.getElementById("mail");
+let mail = document.getElementById("mail");
 if (mail) {
   mail.innerHTML = "degrave" + "@" + "uw.edu";
 }
