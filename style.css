@@ -38,7 +38,7 @@ body {
   background-color: #fffa;
   border: 2px solid #cccd; 
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 16px;
   -webkit-animation: fadein 1s;
      -moz-animation: fadein 1s;
       -ms-animation: fadein 1s;
@@ -213,7 +213,7 @@ body {
 }
 
 .topnav img {
-  height: 46px;
+  height: 36px;
   float: left;
   padding: 6px 16px 4px 16px;
 }
@@ -223,7 +223,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .nav-buttons {
