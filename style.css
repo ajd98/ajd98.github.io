@@ -6,6 +6,10 @@ body {
 
 }
 
+a {
+  color: black;
+}
+
 .visible {
   opacity: 1;
   transition: opacity 1s ease-out;
@@ -208,7 +212,8 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #ddd8;
+  height: 46px;
+  background-color: #ddde;
   display: block;
 }
 
@@ -230,6 +235,8 @@ body {
   float: right;
   display: inline-block;
   vertical-align: top;
+  height: 46px;
+  overflow: hidden;
 }
 
 .nav-icon {
@@ -358,9 +365,6 @@ body {
 @media only screen and (max-width: 812px) {
   .topnav a {
     padding: 14px 8px;
-  }
-  .nav-icon {
-    display: none;
   }
 }
 
