@@ -144,7 +144,7 @@ a {
   position: absolute;
   display: flex;
   flex-direction: column;
-  height: calc(100% - 56px);
+  height: calc(100% - 46px);
   left: 0;
   right: 0;
   bottom: auto;
@@ -204,7 +204,6 @@ a {
   }
   #contact-me {
     margin-left: 5vw;
-    width: 80vw;
   }
 }
 

@@ -16,9 +16,11 @@
   padding-right: 15px;
 }
 
-.topnav a:hover {
-  cursor: pointer;
-  background: #fffe;
+@media (hover: hover) {
+  .topnav a:hover {
+    cursor: pointer;
+    background: #fffe;
+  }
 }
 
 .topnav .clicked {
@@ -71,6 +73,18 @@
   background: #333e;
 }
 
-.topnav-dark-theme a:hover {
-  background: #333e;
+@media (hover: hover) {
+  .topnav-dark-theme a:hover {
+    cursor: pointer;
+    background: #333e;
+  }
+}
+
+@media only screen and (max-width: 812px) {
+  #hamburger-menu {
+    display: block;
+  }
+  .nav-buttons {
+    visibility: hidden;
+  }
 }

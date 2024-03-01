@@ -57,7 +57,6 @@ function updateNavMenuStyle() {
     desktopButtons.style.visibility = 'hidden';
   } else {
     menu.style.display = 'none';
-    console.log('did not overflow');
     let mobileNavMenu = document.getElementById('mobile-nav-menu');
     if (mobileNavMenu.style.display == 'block') {
       closeHamburgerMenu();
@@ -85,4 +84,4 @@ let menu = document.getElementById('hamburger-menu');
 menu.addEventListener('click', toggleHamburgerMenu);
 window.addEventListener('resize', updateNavMenuStyle);
 updateNavMenuStyle();
-
+setTimeout(updateNavMenuStyle, 200); // hacky fix for ios. 
