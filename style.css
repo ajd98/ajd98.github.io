@@ -269,7 +269,7 @@ a {
 
 .photo {
   display: block;
-  max-width: 80%;
+  max-width: 90%;
   max-height: 80vh;
   width: auto;
   height: auto;
@@ -282,45 +282,49 @@ a {
 .inner-photo-container { 
   margin-left: 5vw;
 }
-
 .photo-menu-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 200px);
+  height: calc(100svh - 46px);
 }
-
 .photo-nav-button {
   display: inline-block;
-  width: 20vw;
+  width: 22vw;
+  max-height: 80vh;
   background: #555;
   text-align: center;
-  border-right: 1vw solid #555;
-  border-left: 1vw solid #555;
-  border-top: 1vw solid #555;
-  border-bottom: 0.3vw solid #555;
-  margin-right: 2vw;
-  margin-left: 2vw;
+  border-right: 2px solid #555;
+  border-left: 2px solid #555;
+  border-top: 2px solid #555;
+  border-bottom: 2px solid #555;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
   font-style: italic;
   cursor: pointer;
 }
-
 .photo-nav-button:hover {
   background: #888;
-  border-right: 1vw solid #888;
-  border-left: 1vw solid #888;
-  border-top: 1vw solid #888;
-  border-bottom: 0.3vw solid #888;
+  border-right: 2px solid #888;
+  border-left: 2px solid #888;
+  border-top: 2px solid #888;
+  border-bottom: 2px solid #888;
 }
-
 .nav-photo {
-  max-width: 20vw;
-  width: 20vw;
+  width: 22vw;
   height: auto;
+  max-height: calc(80vh - 2em);
   margin-left: auto;
   margin-right: auto;
 }
-
+@media only screen and (max-width: 812px) {
+  .photo-nav-button {
+    width: 30vw;
+  }
+  .nav-photo {
+    width: 30vw; 
+  }
+}
 .nav-photo-label {
   display: block;
   margin-left: auto;
@@ -331,7 +335,7 @@ a {
 .back-arrow {
   position: fixed;
   top: 50%;
-  left: 1%;
+  left: -8px;
   width: 6vh;
   height: 6vh;
   cursor: pointer;
