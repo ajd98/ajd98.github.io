@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20mm"
+   height="20mm"
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg5415"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <style>
+    path {
+      fill: #000;
+    }
+    @media (prefers-color-scheme: dark) {
+      path {
+        fill: #fff;
+      }
+    }
+  </style>
+  <defs
+     id="defs5409" />
+  <metadata
+     id="metadata5412">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-13.406417,-81.040014)">
+    <g
+       aria-label="Alex J. DeGrave"
+       id="text5962">
+      <path
+         d="m 17.168319,81.040014 -3.761902,10 h 1.387755 l 1.047618,-2.911569 0.414965,-1.197278 1.605442,-4.401357 h 0.02721 l 1.476189,4.401357 h -2.528342 l -0.414967,1.197278 h 3.433105 l 0.986395,2.911569 h 1.476188 l -3.619044,-10 z"
+         id="path5964" />
+      <circle
+         id="path941"
+         style="fill:#7f7f7f;stroke:none"
+         cx="71.057541"
+         cy="107.08745"
+         r="0" />
+      <path
+         d="m 20.022861,91.168368 v 0.66269 q 0,0.788602 0.344599,1.19947 0.351225,0.404241 1.119947,0.404241 0.801855,0 1.179589,-0.417495 0.38436,-0.424122 0.38436,-1.265739 v -7.190192 h 1.318754 v 7.110669 q 0,1.398277 -0.742213,2.147118 -0.742213,0.742213 -2.067594,0.742213 -1.305501,0 -2.041087,-0.66269 -0.72896,-0.669318 -0.72896,-1.782638 v -0.947647 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Helvetica World';-inkscape-font-specification:'Helvetica World';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.141374"
+         id="path5972" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Helvetica World';-inkscape-font-specification:'Helvetica World';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.145125"
+         d="m 25.161516,91.040017 v 9.999993 h 1.353741 v -1.156456 -7.687075 h 2.503403 c 0.975056,0.009 1.721089,0.344671 2.238096,1.006804 0.517008,0.662131 0.775511,1.58957 0.775511,2.782315 0,1.206349 -0.256235,2.158731 -0.768709,2.857144 -0.51247,0.693878 -1.222222,1.040812 -2.129251,1.040812 h -1.603176 v 1.156456 h 1.630386 c 1.346937,0 2.390021,-0.47165 3.129254,-1.414956 0.743762,-0.943309 1.115646,-2.185941 1.115646,-3.727893 0,-1.437642 -0.371884,-2.605442 -1.115646,-3.503401 -0.739233,-0.902494 -1.764177,-1.353743 -3.074831,-1.353743 z"
+         id="path5976" />
+    </g>
+  </g>
+</svg>
