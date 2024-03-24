@@ -1,7 +1,7 @@
 const sections = {
   names: [
-    'Mountains',
-    'Layers',
+    'Landscape',
+    'Abstract',
     'Nature'
   ],
   images: [
@@ -10,36 +10,43 @@ const sections = {
     'images/photography/thumb_hummingbird.jpg'
   ],
   ids: [
-    'mountain-button',
-    'layers-button',
+    'landscape-button',
+    'abstract-button',
     'nature-button'
   ]
 }
 
-const generalImages = [
+const landscapeImages = [
   'images/photography/awe.jpg',
   'images/photography/edge.jpg',
-  'images/photography/mp_sunset.jpg',
+  'images/photography/pt_layers.jpg',
   'images/photography/trees_in_snow.jpg',
+  'images/photography/mp_sunset.jpg',
   'images/photography/cloud_line.jpg',
+  'images/photography/rainier_astro.jpg',
   'images/photography/b_waterfall.jpg',
+  'images/photography/big_trees.jpg',
+  'images/photography/november.jpg',
   'images/photography/cm.jpg',
+  'images/photography/stetattle.jpg',
   'images/photography/er.jpg',
+  'images/photography/traverse.jpg',
+  'images/photography/blum.jpg',
   'images/photography/pp.jpg',
   'images/photography/yy.jpg',
-  'images/photography/moulin.jpg',
   'images/photography/trees_astro.jpg',
-  'images/photography/cloud.jpg',
-  'images/photography/shuksan.jpg',
-  'images/photography/rainier_astro.jpg'
+  'images/photography/baker_high_res.jpg',
+  'images/photography/shuksan.jpg'
 ];
 
-const layerImages = [
-  'images/photography/pt_layers.jpg',
+const abstractImages = [
+  'images/photography/glacier_with_people.jpg',
+  'images/photography/moulin.jpg',
   'images/photography/agnes_layers.jpg',
+  'images/photography/cloud.jpg',
   'images/photography/devil_layers.jpg',
-  'images/photography/snoq_layers.jpg',
-  'images/photography/wp_layers.jpg'
+  'images/photography/river.jpg',
+  'images/photography/snoq_layers.jpg'
 ]
 
 const natureImages = [
@@ -124,12 +131,12 @@ function use_arbitrary (imageList) {
   photoContainer.appendChild(downArrow);
 }
 
-function useGeneral() {
-  use_arbitrary(generalImages);
+function useLandscape() {
+  use_arbitrary(landscapeImages);
 }
 
-function useLayers() {
-  use_arbitrary(layerImages);
+function useAbstract() {
+  use_arbitrary(abstractImages);
 }
 
 function useNature() {
@@ -157,8 +164,8 @@ function generateMenu() {
     link.appendChild(text);
     menuContainer.appendChild(link);
   }
-  document.getElementById('mountain-button').addEventListener('click', useGeneral);
-  document.getElementById('layers-button').addEventListener('click', useLayers);
+  document.getElementById('landscape-button').addEventListener('click', useLandscape);
+  document.getElementById('abstract-button').addEventListener('click', useAbstract);
   document.getElementById('nature-button').addEventListener('click', useNature);
 }
 
