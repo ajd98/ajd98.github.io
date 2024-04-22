@@ -41,6 +41,7 @@ const landscapeImages = [
 
 const abstractImages = [
   'images/photography/glacier_with_people.jpg',
+  'images/photography/sand.jpg',
   'images/photography/moulin.jpg',
   'images/photography/agnes_layers.jpg',
   'images/photography/cloud.jpg',
