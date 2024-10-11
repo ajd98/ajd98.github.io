@@ -85,3 +85,16 @@ menu.addEventListener('click', toggleHamburgerMenu);
 window.addEventListener('resize', updateNavMenuStyle);
 updateNavMenuStyle();
 setTimeout(updateNavMenuStyle, 200); // hacky fix for ios. 
+
+let backgroundImage = document.getElementById('background');
+if (backgroundImage == null) {
+  backgroundImage = document.getElementById('mountain-background')
+}
+backgroundImage.addEventListener('load', function (event) {
+  document.body.classList.remove('hidden');
+  document.body.classList.add('visible');
+});
+if (backgroundImage.complete && backgroundImage.naturalWidth) {
+  document.body.classList.remove('hidden');
+  document.body.classList.add('visible');
+};

@@ -61,22 +61,22 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  background: #fffe;
+  background: #ffff;
   z-index: 999;
 }
 
 #mobile-nav-menu-inner.nav-menu-dark-theme {
-  background: #333e;
+  background: #333f;
 }
 
 .topnav-dark-theme .clicked {
-  background: #333e;
+  background: #333f;
 }
 
 @media (hover: hover) {
   .topnav-dark-theme a:hover {
     cursor: pointer;
-    background: #333e;
+    background: #333f;
   }
 }
 
