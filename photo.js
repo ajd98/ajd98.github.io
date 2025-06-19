@@ -25,20 +25,32 @@ const landscapeImages = [
   'images/photography/mp_sunset.jpg',
   'images/photography/cloud_line.jpg',
   'images/photography/rainier_astro.jpg',
+  'images/photography/tc.jpg',
   'images/photography/b_waterfall.jpg',
   'images/photography/storm.jpg',
   'images/photography/big_trees.jpg',
   'images/photography/november.jpg',
   'images/photography/cm.jpg',
+  'images/photography/larch.jpg',
   'images/photography/stetattle.jpg',
+  'images/photography/mss.jpg',
   'images/photography/er.jpg',
   'images/photography/traverse.jpg',
   'images/photography/blum.jpg',
+  'images/photography/imkis.jpg',
   'images/photography/pp.jpg',
   'images/photography/yy.jpg',
   'images/photography/trees_astro.jpg',
   'images/photography/baker_high_res.jpg',
-  'images/photography/shuksan.jpg'
+  'images/photography/shuksan.jpg',
+  'images/photography/gp.jpg',
+  'images/photography/tn.jpg',
+  'images/photography/wrl.jpg',
+  'images/photography/bp.jpg',
+  'images/photography/coast.jpg',
+  'images/photography/dn.jpg',
+  'images/photography/sc.jpg',
+  'images/photography/baker_skin.jpg'
 ];
 
 const abstractImages = [
@@ -47,8 +59,11 @@ const abstractImages = [
   'images/photography/moulin.jpg',
   'images/photography/agnes_layers.jpg',
   'images/photography/cloud.jpg',
+  'images/photography/x_abstract.jpg',
   'images/photography/devil_layers.jpg',
+  'images/photography/b_abstract.jpg',
   'images/photography/river.jpg',
+  'images/photography/c_abstract.jpg',
   'images/photography/snoq_layers.jpg'
 ]
 
@@ -64,7 +79,8 @@ const natureImages = [
   'images/photography/mushroom.jpg',
   'images/photography/fly.jpg',
   'images/photography/otter.jpg',
-  'images/photography/frog2.jpg'
+  'images/photography/frog2.jpg',
+  'images/photography/toadstool.jpg'
 ];
 
 const scrollObserverOptions = {
