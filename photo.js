@@ -19,10 +19,12 @@ const sections = {
 const landscapeImages = [
   'images/photography/awe.jpg',
   'images/photography/edge.jpg',
+  'images/photography/storasula.jpg',
   'images/photography/colchuck.jpg',
   'images/photography/pt_layers.jpg',
   'images/photography/trees_in_snow.jpg',
   'images/photography/mp_sunset.jpg',
+  'images/photography/mossy_stream.jpg',
   'images/photography/cloud_line.jpg',
   'images/photography/rainier_astro.jpg',
   'images/photography/tc.jpg',
@@ -33,6 +35,7 @@ const landscapeImages = [
   'images/photography/cm.jpg',
   'images/photography/larch.jpg',
   'images/photography/stetattle.jpg',
+  'images/photography/purple_flowers.jpg',
   'images/photography/mss.jpg',
   'images/photography/er.jpg',
   'images/photography/traverse.jpg',
@@ -56,6 +59,7 @@ const landscapeImages = [
 const abstractImages = [
   'images/photography/glacier_with_people.jpg',
   'images/photography/sand.jpg',
+  'images/photography/moss.jpg',
   'images/photography/moulin.jpg',
   'images/photography/agnes_layers.jpg',
   'images/photography/cloud.jpg',
@@ -72,6 +76,7 @@ const natureImages = [
   'images/photography/dragonfly.jpg',
   'images/photography/ptarmigan.jpg',
   'images/photography/bee.jpg',
+  'images/photography/tern.jpg',
   'images/photography/spider.jpg',
   'images/photography/hummingbird2.jpg',
   'images/photography/osprey.jpg',
@@ -190,3 +195,4 @@ function generateMenu() {
 
 generateMenu();
 document.body.classList.replace('hidden', 'visible');
+
