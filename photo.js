@@ -62,7 +62,6 @@ const abstractImages = [
   'images/photography/x_abstract.jpg',
   'images/photography/devil_layers.jpg',
   'images/photography/b_abstract.jpg',
-  'images/photography/river.jpg',
   'images/photography/c_abstract.jpg',
   'images/photography/snoq_layers.jpg'
 ]
@@ -190,6 +189,7 @@ function generateMenu() {
 
 generateMenu();
 document.body.classList.replace('hidden', 'visible');
+
 
 
 
