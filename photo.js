@@ -64,7 +64,7 @@ const abstractImages = [
   'images/photography/b_abstract.jpg',
   'images/photography/c_abstract.jpg',
   'images/photography/snoq_layers.jpg'
-]
+];
 
 const natureImages = [
   'images/photography/hummingbird1.jpg',
@@ -73,7 +73,7 @@ const natureImages = [
   'images/photography/spider.jpg',
   'images/photography/ptarmigan.jpg',
   'images/photography/otter.jpg',
-  'images/photography/toadstool.jpg'
+  'images/photography/toadstool.jpg',
   'images/photography/hummingbird2.jpg',
   'images/photography/osprey.jpg',
   'images/photography/frog1.jpg',
@@ -189,6 +189,7 @@ function generateMenu() {
 
 generateMenu();
 document.body.classList.replace('hidden', 'visible');
+
 
 
 
