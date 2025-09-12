@@ -18,9 +18,9 @@ const sections = {
 
 const landscapeImages = [
   'images/photography/awe.jpg',
+  'images/photography/dn.jpg',
   'images/photography/edge.jpg',
   'images/photography/storasula.jpg',
-  'images/photography/colchuck.jpg',
   'images/photography/pt_layers.jpg',
   'images/photography/trees_in_snow.jpg',
   'images/photography/mp_sunset.jpg',
@@ -28,10 +28,7 @@ const landscapeImages = [
   'images/photography/cloud_line.jpg',
   'images/photography/rainier_astro.jpg',
   'images/photography/tc.jpg',
-  'images/photography/b_waterfall.jpg',
   'images/photography/storm.jpg',
-  'images/photography/big_trees.jpg',
-  'images/photography/november.jpg',
   'images/photography/cm.jpg',
   'images/photography/larch.jpg',
   'images/photography/stetattle.jpg',
@@ -49,9 +46,8 @@ const landscapeImages = [
   'images/photography/gp.jpg',
   'images/photography/tn.jpg',
   'images/photography/wrl.jpg',
+  'images/photography/colchuck.jpg',
   'images/photography/bp.jpg',
-  'images/photography/coast.jpg',
-  'images/photography/dn.jpg',
   'images/photography/sc.jpg',
   'images/photography/baker_skin.jpg'
 ];
@@ -73,19 +69,18 @@ const abstractImages = [
 
 const natureImages = [
   'images/photography/hummingbird1.jpg',
-  'images/photography/dragonfly.jpg',
-  'images/photography/ptarmigan.jpg',
   'images/photography/bee.jpg',
   'images/photography/tern.jpg',
   'images/photography/spider.jpg',
+  'images/photography/ptarmigan.jpg',
+  'images/photography/otter.jpg',
+  'images/photography/toadstool.jpg'
   'images/photography/hummingbird2.jpg',
   'images/photography/osprey.jpg',
   'images/photography/frog1.jpg',
   'images/photography/mushroom.jpg',
-  'images/photography/fly.jpg',
-  'images/photography/otter.jpg',
-  'images/photography/frog2.jpg',
-  'images/photography/toadstool.jpg'
+  'images/photography/dragonfly.jpg',
+  'images/photography/frog2.jpg'
 ];
 
 const scrollObserverOptions = {
@@ -195,4 +190,5 @@ function generateMenu() {
 
 generateMenu();
 document.body.classList.replace('hidden', 'visible');
+
 
