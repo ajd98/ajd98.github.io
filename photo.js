@@ -6,7 +6,7 @@ const sections = {
   ],
   images: [
     'images/photography/awe.jpg',
-    'images/photography/devil_layers.jpg',
+    'images/photography/moss_thumbnail.jpg',
     'images/photography/hummingbird1.jpg'
   ],
   ids: [
@@ -189,6 +189,7 @@ function generateMenu() {
 
 generateMenu();
 document.body.classList.replace('hidden', 'visible');
+
 
 
 
