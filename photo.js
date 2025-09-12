@@ -5,9 +5,9 @@ const sections = {
     'Nature'
   ],
   images: [
-    'images/photography/thumb_mountain.jpg',
+    'images/photography/awe.jpg',
     'images/photography/devil_layers.jpg',
-    'images/photography/thumb_hummingbird.jpg'
+    'images/photography/hummingbird1.jpg'
   ],
   ids: [
     'landscape-button',
@@ -190,5 +190,6 @@ function generateMenu() {
 
 generateMenu();
 document.body.classList.replace('hidden', 'visible');
+
 
 
